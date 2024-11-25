@@ -10,6 +10,7 @@ let pieces = [];
 for (let i = 0; i < rows * cols; i++) {
   const boardSlot = document.createElement('div');
   boardSlot.dataset.index = i;
+  boardSlot.classList.add('base');
   puzzleBoard.appendChild(boardSlot);
 }
 
