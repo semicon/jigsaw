@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f9;
+  margin: 0;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.puzzle-container {
+  display: flex;
+  gap: 20px;
+}
+
+#puzzle-board {
+  width: 416px;
+  height: 416px;
+  border: 2px solid #000;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+#pieces-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 คอลัมน์ */
+  gap: 10px; /* ระยะห่างระหว่างชิ้นส่วน */
+  width: 400px; /* ขนาดที่เหมาะสม */
+  margin: auto;
+}
+.piece {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  cursor: grab;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.placed {
+  border: 2px solid #00c853;
+}
