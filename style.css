@@ -17,8 +17,8 @@ h1 {
 }
 
 #puzzle-board {
-  width: 416px;
-  height: 416px;
+  width: 420px;
+  height: 420px;
   border: 2px solid #000;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
