@@ -40,7 +40,9 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .placed {
   border: 2px solid #00c853;
+}
+.base{
+  border: 1px solid #eee;
 }
