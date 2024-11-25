@@ -26,7 +26,7 @@ for (let i = 0; i < rows * cols; i++) {
   
   piece.style.width = '100px';
   piece.style.height = '100px';
-  piece.style.backgroundImage = "url('https://s359.kapook.com/pagebuilder/1cf149f4-c941-446c-a102-52e70ae00eef.jpg')";
+  piece.style.backgroundImage = "url('https://khaokheow.zoothailand.org/zoo_office/fileupload/encyclopedia_file/357.jpg')";
   piece.style.backgroundPosition = `${offsetX}px ${offsetY}px`;
   piece.style.backgroundSize = `${cols * 100}px ${rows * 100}px`; // ขนาดภาพเต็ม
 
